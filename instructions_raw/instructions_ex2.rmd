@@ -2,11 +2,12 @@
 title: |
     | Formation Pandoc's Markdown -- Exercice n°2
     | Créer un document dynamique
-lang: french
 fontsize: 11pt
 output:
     pdf_document:
         toc: false
+        includes:
+            in_header: header.tex
 ---
 
 \vspace{2.5cm}
@@ -19,7 +20,7 @@ Au cours de cet exercice, vous allez apprendre à créer un document scientifiqu
 
 # Instructions
 
-1. Téléchargez les fichiers à cette adresse : [http://ahasverus.github.io/md-lecture/exercice2.zip](http://ahasverus.github.io/md-lecture/exercice2.zip)
+1. Téléchargez les fichiers à cette adresse : [https://ahasverus.github.io/mastering-markdown/exercice2.zip](https://ahasverus.github.io/mastering-markdown/exercice2.zip)
 
 1. Cette archive ZIP contient différents fichiers/répertoires :
 
@@ -43,4 +44,4 @@ Au cours de cet exercice, vous allez apprendre à créer un document scientifiqu
 
 # Notes
 
-La formation est disponible à cette adresse :  [http://ahasverus.github.io/md-lecture/](http://ahasverus.github.io/md-lecture/). N'hésitez pas à la consulter pour trouver les balises Markdown nécessaires.
+La formation est disponible à cette adresse :  [https://ahasverus.github.io/mastering-markdown/](https://ahasverus.github.io/mastering-markdown/). N'hésitez pas à la consulter pour trouver les balises Markdown nécessaires.

@@ -2,11 +2,12 @@
 title: |
     | Formation Pandoc's Markdown -- Exercice n°1
     | Maîtriser les bases du langage
-lang: french
 fontsize: 11pt
 output:
     pdf_document:
         toc: false
+        includes:
+            in_header: header.tex
 ---
 
 \vspace{2.5cm}
@@ -19,7 +20,7 @@ Cet exercice a pour but de vous familiariser avec les bases du langage Pandoc's 
 
 # Instructions
 
-1. Téléchargez les fichiers à cette adresse : [http://ahasverus.github.io/md-lecture/exercice1.zip](http://ahasverus.github.io/md-lecture/exercice1.zip)
+1. Téléchargez les fichiers à cette adresse : [https://ahasverus.github.io/mastering-markdown/exercice1.zip](https://ahasverus.github.io/mastering-markdown/exercice1.zip)
 
 1. Cette archive ZIP contient trois fichiers :
 
@@ -33,4 +34,4 @@ Cet exercice a pour but de vous familiariser avec les bases du langage Pandoc's 
 
 # Notes
 
-La formation est disponible à cette adresse :  [http://ahasverus.github.io/md-lecture/](http://ahasverus.github.io/md-lecture/). N'hésitez pas à la consulter pour trouver les balises Markdown nécessaires. Consultez en particulier la dernière diapositive (La fonction `render()` -- Erreurs possibles)
+La formation est disponible à cette adresse :  [https://ahasverus.github.io/mastering-markdown/](https://ahasverus.github.io/mastering-markdown/). N'hésitez pas à la consulter pour trouver les balises Markdown nécessaires. Consultez en particulier la dernière diapositive (La fonction `render()` -- Erreurs possibles)
