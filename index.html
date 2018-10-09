@@ -5,14 +5,6 @@
   <meta charset="utf-8">
 
   <script src="js/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/libs/remark/remark-latest.min.js"></script>
-  <script>
-      remark.macros.scale = function (percentage) {
-        var url = this;
-        return '<img src="' + url + '" style="width: ' + percentage + '" />';
-      };
-      var slideshow = remark.create();
-  </script>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
@@ -118,7 +110,7 @@
 
     .ssmall[Présentation disponible en ligne :]
     <br />
-    .ssmall[[https://ahasverus.github.io/md-lecture/](https://ahasverus.github.io/md-lecture/)]
+    .ssmall[[https://ahasverus.github.io/mastering-markdown](https://ahasverus.github.io/mastering-markdown)]
 
     <br />
 
@@ -1715,7 +1707,7 @@
 
     * Télécharger les instructions à cette adresse :
 
-    >> [https://ahasverus.github.io/md-lecture/instructions_ex1.pdf](https://ahasverus.github.io/md-lecture/instructions_ex1.pdf)
+    >> [https://ahasverus.github.io/mastering-markdown/instructions_ex1.pdf](https://ahasverus.github.io/mastering-markdown/instructions_ex1.pdf)
 
 
 
@@ -1731,7 +1723,7 @@
 
     * Télécharger les instructions à cette adresse :
 
-    >> [https://ahasverus.github.io/md-lecture/instructions_ex2.pdf](https://ahasverus.github.io/md-lecture/instructions_ex2.pdf)
+    >> [https://ahasverus.github.io/mastering-markdown/instructions_ex2.pdf](https://ahasverus.github.io/mastering-markdown/instructions_ex2.pdf)
 
 
 
@@ -1747,7 +1739,7 @@
 
     * Télécharger les instructions à cette adresse :
 
-    >> [https://ahasverus.github.io/md-lecture/instructions_ex3.pdf](https://ahasverus.github.io/md-lecture/instructions_ex3.pdf)
+    >> [https://ahasverus.github.io/mastering-markdown/instructions_ex3.pdf](https://ahasverus.github.io/mastering-markdown/instructions_ex3.pdf)
 
 
     ---
@@ -1761,5 +1753,14 @@
 
   </textarea>
 
+  <script src="js/libs/remark/remark-latest.min.js"></script>
+  <script>
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+      var slideshow = remark.create();
+  </script>
+  
 </body>
 </html>
